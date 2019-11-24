@@ -6,14 +6,13 @@ a { color: #faa541; text-decoration: none; }
 ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
-/***************************************/
+section {display: flex;}
 
+/*************ALIGN***************/
 .container {
   margin: 0 auto;
   max-width: 1170px;
 }
-
-section {display: flex;}
 
 .flex {display: flex;}
 
@@ -30,7 +29,7 @@ section {display: flex;}
 .space-between{
   justify-content: space-between;
 }
-
+/***************CONTROLS****************/
 .btn{
   cursor: pointer;
   border: 0;
@@ -57,7 +56,7 @@ section {display: flex;}
   color: #8598a2;
   line-height: 1.4;
 }
-
+/**************TYPOGRAPHY****************/
 .text-light{
   font-size: 30px;
   color: #a0a0a0;
@@ -71,4 +70,77 @@ section {display: flex;}
 .text-primary{
   font-size: 16px;
   color: #364147
+}
+
+/************HEADER&NAV*************/
+.header-nav{
+  border-bottom:  1px;
+  border-color: #a0a0a0;
+}
+
+.brand{
+  brand: 170px;
+  height: 85px;
+  margin-left: -15px;
+  margin-right: 60px;
+}
+
+.logo{
+  max-width: 100%;
+  height: auto;
+}
+
+.search-box{
+  width: 330;
+  height: 30px;
+  padding: 6px 12px;
+  border: 1px solid #a0a0a0;
+}
+
+.search-button {
+  background-color: #a0a0a0;
+  color: #000000;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+}
+
+
+.nav-list{
+  padding-left: 0;
+  width: 575;
+  margin-top: 10px;
+}
+
+.nav-list li a{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.profile{
+  margin-left: auto;
+}
+
+.account{
+  text-align: right;
+  padding: 15px;
+  color: #364147;
+  font-size: 18px;
+}
+
+.account a{
+  font-size: 14px;
+}
+
+.profile-pic{
+  width: 60px;
+  height: 60px;
+}
+
+.profile-pic img{
+  border-radius: 100px;
+  max-width: 100%;
 }
