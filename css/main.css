@@ -91,7 +91,7 @@ section {display: flex;}
 }
 
 .search-box{
-  width: 330;
+  width: 330px;
   height: 30px;
   padding: 6px 12px;
   border: 1px solid #a0a0a0;
